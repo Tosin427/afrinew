@@ -1305,9 +1305,9 @@
 $(document).ready(function(){
 	setTimeout(function(){
 	  $('#popUpMain').css('display','block');
-	}, 5000);
+	}, 3000);
   });
 
-  $('.submitId').click(function(){
+  $('.submitId1').click(function(){
 	$('#popUpMain').css('display','none');
   });
