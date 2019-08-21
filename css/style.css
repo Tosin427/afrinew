@@ -12132,15 +12132,16 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 #popup {
 	width: 500px;
-	height: 250px;
+	height: 400px;
 	background-color: white;
-	/* background-image:linear-gradient(rgba(0,0,0,5),rgba(0,0,0,5)) url('/images/1.jpg'); */
+	/* linear-gradient(rgba(0,0,0,5),rgba(0,0,0,5)) */
+	/* background-image: url('/images/1.png'); */
 	background-size: cover;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	box-shadow: 2px 2px 5px 3px white;
+	box-shadow: 1px 2px 5px 3px black;
 	text-align: center;
 	
 }
@@ -12148,6 +12149,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 #newsHeading {
 	transform: translateY(50px);
 	color: black;
+	margin-top: -50px;
 	font-family: 'Ubuntu', sans-serif;
 }
 
@@ -12162,8 +12164,26 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .submitId {
 	background-color: #0fc0fa;
 	border: none;
+	border-radius: 10px;
 	font-size: 1rem;
+	margin-top: 20px;
+	margin-right: 50px;
 	padding: 0.6rem 1rem;
 	color: white;
 	font-family: 'Ubuntu', sans-serif;
 }
+
+.submitId1 {
+	background-color: #0fc0fa;
+	border: none;
+	border-radius: 10px;
+	font-size: 1rem;
+	margin-top: 20px;
+	padding: 0.6rem 1rem;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* .imageTop {
+	padding-top: -500px	
+} */
