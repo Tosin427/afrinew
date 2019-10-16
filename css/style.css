@@ -9521,14 +9521,14 @@ button.swiper-pagination-bullet {
 	}
 }
 
-/* 
+/*
  * 	Owl Carousel - Auto Height Plugin
  */
 .owl-height {
 	transition: height 500ms ease-in-out;
 }
 
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
@@ -9612,7 +9612,7 @@ button.swiper-pagination-bullet {
 	display: block;
 }
 
-/* 
+/*
  * 	Owl Carousel - Lazy Load Plugin
  */
 .owl-carousel .owl-item .owl-lazy {
@@ -9620,7 +9620,7 @@ button.swiper-pagination-bullet {
 	transition: opacity 400ms ease;
 }
 
-/* 
+/*
  * 	Owl Carousel - Video Plugin
  */
 .owl-carousel .owl-video-wrapper {
@@ -9882,6 +9882,7 @@ h3 + .owl-carousel {
 	}
 }
 
+
 .lg-sub-html, .lg-toolbar {
 	background-color: rgba(0, 0, 0, 0.45);
 }
@@ -9893,6 +9894,23 @@ h3 + .owl-carousel {
 	font-weight: 400;
 	font-style: normal;
 }
+
+@font-face {
+    font-family: nexa;
+    src: url(../fonts/nexa_bold-webfont.woff2) format('woff2'),
+         url(../fonts/nexa_bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: quicksand;
+	src: url(../fonts/Quicksand-Regular.otf), url(../fonts/Quicksand-Light.otf);
+}
+
+
+
 
 .lg-icon {
 	font-family: lg;
@@ -12145,7 +12163,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	transform: translate(-50%, -50%);
 	box-shadow: 1px 2px 5px 3px black;
 	text-align: center;
-	
+
 }
 
 .modal-dialog {
@@ -12203,7 +12221,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 /* .imageTop {
-	padding-top: -500px	
+	padding-top: -500px
 } */
 
 #text-center {
@@ -12805,12 +12823,12 @@ body#home #site-container {
 }
 /* form element placeholder text styles */
 /*
-.MIXcalcProp(@selector, @percent: 100%, @adjustmentValue: 50px, @operation: add) when (@operation = add){ 
+.MIXcalcProp(@selector, @percent: 100%, @adjustmentValue: 50px, @operation: add) when (@operation = add){
 	@{selector}: -moz-calc(@percent + @adjustmentValue);
 	@{selector}: -webkit-calc(@percent + @adjustmentValue);
 	@{selector}: calc(@percent + @adjustmentValue);
 }
-.MIXcalcProp(@selector, @percent: 100%, @adjustmentValue: 50px, @operation: add) when (@operation = subtract){ 
+.MIXcalcProp(@selector, @percent: 100%, @adjustmentValue: 50px, @operation: add) when (@operation = subtract){
 	@{selector}: -moz-calc(@percent - @adjustmentValue);
 	@{selector}: -webkit-calc(@percent - @adjustmentValue);
 	@{selector}: calc(@percent - @adjustmentValue);
@@ -12851,7 +12869,7 @@ body {
   position: relative;
 }
 /*i, em {
-		font-style: normal; 
+		font-style: normal;
 	}*/
 
 img {
@@ -13498,7 +13516,7 @@ table tfoot td {
       display: block;
       background: #333;
       padding: 10px; */
-  
+
   }
 }
 /* End Table Styles */
@@ -15128,10 +15146,10 @@ div.animated-wrapper {
   position: relative;
 }
 /*
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
 	 input:focus {
 		font-size: 16px;
-		background: lighten(#f49e22, 30%);  
+		background: lighten(#f49e22, 30%);
 		height: auto;
 	 }
  }
@@ -16913,11 +16931,11 @@ body#corp-lower-onecolumn #site-container div#content-container div.column#main 
   }
   #tertiary-nav-container > ul {
     /* custom scrollbar */
-  
+
     /* Track */
-  
+
     /* Handle */
-  
+
     position: relative;
     top: 0px;
     -webkit-overflow-scrolling: touch;
@@ -17228,14 +17246,14 @@ body#corp-lower-onecolumn #site-container div#content-container div.column#main 
   font-family: 'Open Sans';
   src: url('/content/themes/fonts/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.eot');
   src: url('/content/themes/fonts/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.eot?#iefix') format('embedded-opentype'), url('/content/themes/fonts/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff') format('woff'), url('/content/themes/fonts/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.ttf') format('truetype');
-  
+
   font-weight: 400;
 }
 @font-face {
   font-family: 'Open Sans';
   src: url('/content/themes/fonts/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.eot');
   src: url('/content/themes/fonts/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.eot?#iefix') format('embedded-opentype'), url('/content/themes/fonts/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff'), url('/content/themes/fonts/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw') format('truetype');
-  
+
   font-weight: 400;
   font-style: normal;
 }
@@ -17243,7 +17261,7 @@ body#corp-lower-onecolumn #site-container div#content-container div.column#main 
   font-family: 'Open Sans';
   src: url('/content/themes/fonts/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.eot');
   src: url('/content/themes/fonts/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.eot?#iefix') format('embedded-opentype'), url('/content/themes/fonts/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff') format('woff'), url('/content/themes/fonts/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.ttf') format('truetype');
-  
+
   font-weight: 700;
   font-style: bold;
 }
@@ -17940,7 +17958,7 @@ div.mobile-search-bar input:-ms-input-placeholder {
   }
 }
 @media all and (min--moz-device-pixel-ratio: 0) {
-  
+
 }
 @media all and (min--moz-device-pixel-ratio: 0) and (min-width: 0px) {
   #header.hdr-corp-sm .wrapper div.column.left div#utility-container ul li.language > a {
@@ -17965,7 +17983,7 @@ div.mobile-search-bar input:-ms-input-placeholder {
   }
 }
 @media all and (min--moz-device-pixel-ratio: 0) {
-  
+
 }
 @media all and (min--moz-device-pixel-ratio: 0) and (min-width: 0px) {
   #header.hdr-corp-sm .wrapper div.column.left div#utility-container ul li.session {
@@ -18169,7 +18187,7 @@ body#content-page-wide div#header.hdr-corp-sm .wrapper div.column.right {
 /* Old Menu */
 
 /*
-ul#main-menu { 
+ul#main-menu {
 						list-style: none;
 						position: relative;
 						padding: 0px;
@@ -18260,7 +18278,7 @@ ul#main-menu {
 									.container {
 										border: 1px solid red;
 									}
-									
+
 									//submenu link styles
 									a {
 										float: left;
@@ -18293,8 +18311,8 @@ ul#main-menu {
 									}
 								}
 							}
-							
-							
+
+
 						}
 					}
 	*/
@@ -20216,7 +20234,7 @@ body#corp-lower-onecolumn div.our-stories .quote_block .quote_mark.close_quote {
   margin-right: 10px;
 }
 @media only screen and (max-width: 1280px) {
-  
+
 }
 @media only screen and (max-width: 1250px) {
   div.our-stories .quote_block {
@@ -20406,7 +20424,7 @@ body#corp-lower-onecolumn div.our-stories .quote_block .quote_mark.close_quote {
         .header {
             height: 38px;
             padding: 10px 20px;
-            
+
             h1 {
                 font-size: 18px;
             }
@@ -20916,7 +20934,7 @@ body div.spinner ::-webkit-scrollbar-thumb {
   }
 }
 @media only screen and (max-width: 1020px) {
-  
+
 }
 @media only screen and (max-width: 550px) {
   body div.spinner {
@@ -20950,7 +20968,7 @@ body div.spinner h2 {
   }
 }
 @media only screen and (max-width: 1190px) {
-  
+
 }
 @media only screen and (max-width: 1120px) {
   body div.spinner h2 {
@@ -22319,7 +22337,7 @@ div.global-reach .wrapper .col .geoContentitem .wrapper .content-box {
   margin-bottom: 42px;
 }
 @media only screen and (max-width: 1120px) {
-  
+
 }
 @media only screen and (max-width: 550px) {
   div.global-reach .wrapper .col .geoContentitem .wrapper .content-box {
@@ -22544,7 +22562,7 @@ div.global-reach {
     vertical-align: baseline;
     -webkit-text-size-adjust: 100%;
 	.MIXcustomScrollbar;
-	
+
 	.leaflet-popup-content-wrapper, .map-legends, .map-tooltip {
 		background-color: rgba(0,0,0,.5);
 		color: #ffffff;
@@ -22558,7 +22576,7 @@ div.global-reach {
 		border-top: 10px solid rgba(0,0,0,.5);
 		box-shadow: none;
 	}
-	
+
 	.leaflet-container a:hover, .leaflet-container.dark a {
 		color: #ffffff;
 	}
@@ -22584,19 +22602,19 @@ div.global-reach {
 		@media only screen and (max-width: 560px) {
 			padding: 14px 18px;
 			font-size: 20px;
-		}		
-		
-		
-		
-	}  
-  
+		}
+
+
+
+	}
+
 .wrapper {
 	  background: #222658 url('/content/img/corp/global_reach_bkgd.jpg') no-repeat left top;
       overflow: hidden;
       position: relative;
 	  min-height: 497px;
 	  padding: 30px;
-	  
+
 	   div.description {
 			font-size: 12px;
 			color: #333333;
@@ -22611,27 +22629,27 @@ div.global-reach {
 			width: 728px;
 			max-height: 56px;
 			//.MIXdropShadow( 5px, 5px, 4px, 0, 0.5);
-			@media only screen and (max-width: @GRbreakpoint-1-max) { 
+			@media only screen and (max-width: @GRbreakpoint-1-max) {
 				width: 100%;
 			}
-			@media only screen and (max-width: 800px) { 
+			@media only screen and (max-width: 800px) {
 				width: 100%;
 				height: auto;
 				max-height: none;
 			}
 		}
-		
+
 		div.map {
 			width: 728px;
 			height: 400px;
-			@media only screen and (max-width: @GRbreakpoint-1-max) { 
+			@media only screen and (max-width: @GRbreakpoint-1-max) {
 				width: 100%;
 			}
-			@media only screen and (max-width: 560px) { 
+			@media only screen and (max-width: 560px) {
 				height: 200px;
 			}
 		}
-	  
+
 		.col {
 			float: left;
 			width: 100%;
@@ -22650,12 +22668,12 @@ div.global-reach {
 					border-bottom: 1px solid #ffffff;
 					height: auto;
 					//.MIXdropShadow( 5px, 5px, 4px, 0, 0.5);
-					@media only screen and (max-width: 800px) { 
+					@media only screen and (max-width: 800px) {
 						float: left;
 						width: 57%;
 						margin-top: 0px;
 					}
-					@media only screen and (max-width: 560px) { 
+					@media only screen and (max-width: 560px) {
 						width: 100%;
 					}
 				}
@@ -22665,16 +22683,16 @@ div.global-reach {
 					font-size: 13px;
 					display: block;
 					margin: 0px 0px 10px 0px;
-				}			
+				}
 				img.geoContentitem-img {
 					//border: 1px solid #c3c4c5;
 					.MIXdropShadow( 5px, 5px, 4px, 0, 0.5);
 					height: 242px;
 					width: 430px;
-					@media only screen and (max-width: @GRbreakpoint-1-max) { 
+					@media only screen and (max-width: @GRbreakpoint-1-max) {
 						width: 100%;
 					}
-					@media only screen and (max-width: 800px) { 
+					@media only screen and (max-width: 800px) {
 							float: left;
 							width: 40%;
 							height: auto;
@@ -22684,7 +22702,7 @@ div.global-reach {
 						float: none;
 						width: 100%;
 						display: block;
-					}	
+					}
 				}
 				.wrapper {
 					width: auto;
@@ -22704,7 +22722,7 @@ div.global-reach {
 							height: auto;
 						}
 					}
-					@media only screen and (max-width: 800px) { 
+					@media only screen and (max-width: 800px) {
 						width: 57%;
 						height: auto;
 						max-height: none;
@@ -22716,9 +22734,9 @@ div.global-reach {
 					@media only screen and (max-width: 560px) {
 						float: none;
 						width: 100%;
-					}	
+					}
 				}
-				p {	
+				p {
 					em {
 						color: #2a54a3;
 						font-style: normal;
@@ -22734,21 +22752,21 @@ div.global-reach {
 					margin-top: 10px;
 				}
 			}
-		
+
 			&.left {
 				width: 728px;
 				margin-right: 60px;
-				@media only screen and (max-width: @GRbreakpoint-1-max) { 
+				@media only screen and (max-width: @GRbreakpoint-1-max) {
 					width: 500px;
 				}
-				@media only screen and (max-width: @breakpoint-2-max) { 
+				@media only screen and (max-width: @breakpoint-2-max) {
 					width: 350px;
 					margin-right: 30px;
 				}
 				@media only screen and (max-width: @breakpoint-3-max) {
 					width: 406px;
 				}
-				@media only screen and (max-width: 800px) { 
+				@media only screen and (max-width: 800px) {
 						width: 100%;
 						margin-bottom: 10px;
 						.clearfix;
@@ -22759,27 +22777,27 @@ div.global-reach {
 					@media only screen and (max-width: @breakpoint-3-max) {
 						width: 300px;
 					}
-					@media only screen and (max-width: 800px) { 
+					@media only screen and (max-width: 800px) {
 							width: 100%;
 							//background: transparent url('/content/img/shared/art_bkgd_white_opacity_60.png') repeat;
 					}
 				}
-				@media only screen and (max-width: 800px) { 
+				@media only screen and (max-width: 800px) {
 						float: none;
 				}
 		}
-			 
+
 		.social-container {
 			float: left;
-			@media only screen and (max-width: 560px) { 
+			@media only screen and (max-width: 560px) {
 				float: none;
 			}
 		}
-			@media only screen and (max-width: @breakpoint-3-max) { 
+			@media only screen and (max-width: @breakpoint-3-max) {
 				padding: 10px;
 			}
 		}
-	@media only screen and (max-width: @GRbreakpoint-1-max) { 
+	@media only screen and (max-width: @GRbreakpoint-1-max) {
 		width: 100%;
 	}
 }
@@ -22862,5 +22880,25 @@ div.global-reach {
 	color: red;
 }
 
+/* .imageBtn {
+	width: 150px;
+	height: 100px;
+	margin-top: -150px;
+	margin-left: 150px;
+}
 
 
+.imageBtn1 {
+	width: 150px;
+	height: 100px;
+	margin-top: -100px;
+	margin-left: 300px;
+} */
+
+.mobileBtn {
+	width: 300px;
+	position: absolute;
+	top: 300px;
+	right: 250px;
+	z-index: 2;
+}
